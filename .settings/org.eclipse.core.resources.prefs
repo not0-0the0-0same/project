@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+encoding//WebContent/chat.jsp=UTF-8
+encoding//WebContent/jsp/ChatWindow.jsp=UTF-8
+encoding//WebContent/jsp/register.jsp=UTF-8
+encoding//src/control/ChatServlet.java=UTF-8

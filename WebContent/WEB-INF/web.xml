@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>HappyChat</display-name>
+  <welcome-file-list>
+
+    <welcome-file>Chat.html</welcome-file>
+    <welcome-file>Chat.htm</welcome-file>
+    <welcome-file>Chat.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>RegisterUIServlet</display-name>
+    <servlet-name>RegisterUIServlet</servlet-name>
+    <servlet-class>web.UI.RegisterUIServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegisterUIServlet</servlet-name>
+    <url-pattern>/RegisterUIServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>LoginServlet</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>web.controller.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>RegisterServlet</display-name>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>web.controller.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/RegisterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>LoginOutServlet</display-name>
+    <servlet-name>LoginOutServlet</servlet-name>
+    <servlet-class>web.controller.LoginOutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginOutServlet</servlet-name>
+    <url-pattern>/LoginOutServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>LoginUIServlet</display-name>
+    <servlet-name>LoginUIServlet</servlet-name>
+    <servlet-class>web.UI.LoginUIServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginUIServlet</servlet-name>
+    <url-pattern>/LoginUIServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+	<servlet-name>ChatServlet</servlet-name>
+	<servlet-class>control.ChatServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>ChatServlet</servlet-name>
+	<url-pattern>/ChatServlet</url-pattern>
+</servlet-mapping>
+</web-app>

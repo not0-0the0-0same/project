@@ -1,0 +1,179 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,ul,li,tbody,tr,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd,input{margin:0;padding:0;}
+
+body{font-size:12px;}
+
+img{border:none;}
+
+li{list-style:none;}
+
+input,select,textarea{outline:none;}
+
+textarea{resize:none;}
+
+a{text-decoration:none;}
+
+#wrap{
+	background:url(../images/demo-1-bg.jpg) no-repeat;
+	
+	margin:0 auto;
+}
+#header{
+	
+	width:100%;
+}
+#mainbody{
+	
+}
+#footer{
+	height:140px;
+	width:100%;
+}
+.logo{
+	width:100%;
+	height:80px;
+	line-height:80px;
+	font-family:"微软雅黑";
+	font-size:30px;
+	color:#FFF;
+	text-align:center;
+	
+}
+.navigation{
+	width:100%;
+	margin-top:10px;
+	overflow:hidden;
+}
+.nav1{
+	float:left;
+	margin-left:400px;	
+}
+.nav2{
+	float:right;
+	margin-right:400px;
+}
+.navigation li a{
+	text-decoration:none;	/*清除<a>的下划线*/
+	font-size:30px;
+	color:#7f7f7f;
+	padding-bottom:2px;
+	display:block;	/*转换成块级元素*/
+	border-bottom:3px solid none;
+}
+.navigation li a:hover{
+	border-bottom:3px solid #930;
+}
+.nav1_on{
+	border-bottom:3px solid #930;
+}
+.nav2_on{
+	border-bottom:3px solid #930;
+}
+.loginBox ul{
+	width:350px;
+	margin:100px auto;
+}
+.text{
+	display:inline-block;
+	height:37px;
+	width:245px;
+	text-indent:37px;
+	font-size:18px;
+	color:#FFF;
+	border-radius:245px;
+	boder:1px solid #FFF;
+	background:none;
+	
+}
+#login{
+	text-align:center;
+}
+.user{
+	background:url(../images/user1.png) no-repeat center left;
+}	
+.password{
+	background:url(../images/password5.png) no-repeat center left;	
+}
+.loginBox ul li{
+	height:39px;
+	line-height:39px;
+	margin-bottom:31px;
+}
+.c{
+	height:39px;
+	line-height:39px;	
+	font-family:"微软雅黑";
+	font-size:21px;
+	color:#7f7f7f;
+	margin-right:10px;
+}
+.txt_style{
+	text-indent:10px;	
+}
+.login_button{
+	height:37px;
+	width:245px;
+	border-radius:245px;
+	margin-left:62px;
+	background:#09F;
+	border:1px solid #09F;
+	font-family:"微软雅黑";
+	font-size:15px;
+	color:#FFF;
+}
+.login_button:hover{
+	background:#93F;
+	border:1px solid #93F;
+}
+.registerBox{
+	padding:50px 10px 30px;
+	width:600px;
+	margin:40px auto;
+	border:1px solid #999;	
+}
+.registerBox li{
+	margin-bottom:20px;
+}
+.registerBox i{
+	margin-right:0px;
+	color:#F00;	
+}
+.d{
+	display:inline-block;
+	width:200px;
+	font-size:16px;
+	font-family:"微软雅黑";
+	color:#CCC;
+	text-align:right;
+	margin-right:12px;
+}
+.f{
+	margin-left:120px;
+	font-family:"宋体";
+	color:#CCC;	
+}
+.m{
+	font-size:16px;
+	font-family:"微软雅黑";
+	color:#CCC;
+}
+.reg_button{
+	height:37px;
+	width:245px;
+	border-radius:245px;
+	margin-left:112px;
+	background:#099;
+	border:1px solid #099;
+	font-family:"微软雅黑";
+	color:#FFF;
+}
+.reg_button:hover{
+	background:#00C;
+	border:#00C;	
+}
+.f a{
+	color:#F03;
+	text-decoration:underline;	
+}
